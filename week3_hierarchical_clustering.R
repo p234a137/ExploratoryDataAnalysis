@@ -52,3 +52,4 @@ hClustering <- hclust(distxy)
 plot(hClustering)
 # prettier dendogram
 myplclust(hClustering,lab=rep(1:3,each=4),lab.col=rep(1:3,each=4))
+
